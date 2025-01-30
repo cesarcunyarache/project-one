@@ -1,4 +1,67 @@
-# project-one
+# 🛒 Sales Management System
+
+📌 **Sales Management System** es un software de escritorio desarrollado en **Java** con arquitectura **DAO (Data Access Object)**. 
+Permite gestionar ventas, clientes, empleados, productos y más. Su interfaz moderna facilita la administración eficiente de un negocio.
+
+## 🚀 Características Principales  
+
+✅ **Gestión de Ventas:** Registrar, modificar y eliminar ventas con detalles de productos.  
+✅ **Administración de Productos:** Control de stock y categorías.  
+✅ **Gestión de Clientes:** Registro y actualización de clientes.  
+✅ **Manejo de Empleados:** Control de roles y permisos.  
+✅ **Reportes en PDF:** Generación automática de reportes de ventas y clientes.  
+✅ **Notificaciones y Mensajería:** Alertas y mensajes internos.  
+✅ **Interfaz Moderna y Personalizada:** Uso de componentes gráficos mejorados.  
+✅ **Seguridad Mejorada:** Manejo de encriptación de datos.  
+
+## 🛠️ Tecnologías Utilizadas  
+
+| Tecnología  | Descripción |
+|------------|------------|
+| ☕ **Java** | Lenguaje de programación principal |
+| 🗄️ **MySQL** | Base de datos relacional |
+| 🖥️ **Swing** | Framework para la interfaz gráfica |
+| 📊 **JFreeChart** | Gráficos y estadísticas |
+| ✉️ **JavaMail** | Envío de correos electrónicos |
+| 📄 **iText** | Generación de reportes en PDF |
+| 🔗 **DAO Pattern** | Arquitectura para acceso a datos |
+
+
+## 📂 Estructura del Proyecto  
+
+```
+cesarcunyarache-salesmanagementproject/
+│── README.md
+│── build.xml
+│── manifest.mf
+│── src/
+│   ├── BusinessObject/        # 📦 Clases de negocio (Entidad)
+│   ├── Components/            # 🎨 Componentes gráficos personalizados
+│   ├── DataAccessObject/      # 🔗 Clases DAO (acceso a datos)
+│   ├── DataSource/            # 🔌 Conexión con la base de datos
+│   ├── Frame/                 # 🖥️ Interfaz gráfica (JFrames)
+│   ├── Graphic/               # 📊 Gráficos y reportes
+│   ├── JTable/                # 🗂️ Personalización de tablas
+│   ├── Message/               # ✉️ Mensajería interna
+│   ├── Notification/          # 🔔 Notificaciones visuales
+│   ├── TransferObject/        # 📤 Clases DTO (Transferencia de datos)
+│   ├── datechooser/           # 📅 Selector de fechas personalizado
+│── test/                      # 🧪 Pruebas unitarias
+└── Driver-PDF/                # 📄 Generación de reportes PDF
+```
+
+## 📥 Instalación y Uso  
+
+1️⃣ **Clona el repositorio:**  
+```bash
+git clone https://github.com/tu-usuario/cesarcunyarache-salesmanagementproject.git
+```
+2️⃣ **Importa el proyecto en NetBeans o IntelliJ.**  
+3️⃣ **Configura la base de datos MySQL.**  
+4️⃣ **Ejecuta la aplicación y disfruta.** 🚀  
+
+---
+## 🎨 Interfaz del Sistema  
 
 <img width="979" alt="Captura de pantalla 2023-06-23 a la(s) 11 05 59" src="https://github.com/cesarcunyarache/SalesManagementProject/assets/102435094/0ff07888-b7f2-4719-9af9-e6855c7971e9">
 
